@@ -1,0 +1,4 @@
+Created basic react template
+
+TODOS:
+Add checklist images
