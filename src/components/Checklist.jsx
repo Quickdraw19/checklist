@@ -2,8 +2,8 @@ import React, {useState} from 'react'
 
 const Checklist = () => {
     const [items, setItems] = useState([
-        {name: 'Item 1', image: 'item1.jpg', checked: false},
-        {name: 'Item 2', image: 'item2.jpg', checked: false}
+        {name: 'Alaska', file: 'ak.png', checked: false},
+        {name: 'Alabama', file: 'al.png', checked: false}
     ])
 
     const toggleCheck = (index) => {
@@ -14,12 +14,11 @@ const Checklist = () => {
 
     return (
         <div>
-            <h2>Checklist</h2>
             <ul>
                 {items.map((item, index) => (
                     <li key={index}>
-                        <img src={`./assets/${item.image}`} alt={item.name} />
-                        <span>{item.name}</span>
+                        <img className="plate-img" src={`./public/plates/us/${item.file}`} alt={item.name} />
+                        {/* <span>{item.name}</span> */}
                         <input type="checkbox" checked={item.checked} onChange={() => toggleCheck(index)} />
                     </li>
                 ))}
