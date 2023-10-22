@@ -1,4 +1,4 @@
-Created basic react template
+Last working on:
+Creating full plate grid.
 
 TODOS:
-Add checklist images
