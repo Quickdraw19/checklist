@@ -34,30 +34,28 @@ const Checklist = () => {
 
 export default Checklist
 
-        //     <script>
-        //         for (let key in stateCodes) {
-        //             // Create grid item container
-        //             const divNode = document.createElement("div");
-        //             divNode.setAttribute('class', 'grid-item');
-        //             divNode.setAttribute('id', stateCodes[key].code);
+// FROM MY HTML/JS VERSION:
+// for (let key in stateCodes) {
+//     // Create grid item container
+//     const divNode = document.createElement("div");
+//     divNode.setAttribute('class', 'grid-item');
+//     divNode.setAttribute('id', stateCodes[key].code);
 
-        //             // Create buttons
-        //             const buttonNode = document.createElement("button");
-        //             buttonNode.setAttribute('class', 'plate');
-        //             buttonNode.setAttribute('onclick', 'registerPlate(this)');
+//     // Create buttons
+//     const buttonNode = document.createElement("button");
+//     buttonNode.setAttribute('class', 'plate');
+//     buttonNode.setAttribute('onclick', 'registerPlate(this)');
 
-        //             // Create plate image for button
-        //             const imgNode = document.createElement("img");
-        //             imgNode.setAttribute('src', `images/plates/us/${stateCodes[key].code}.png`);
+//     // Create plate image for button
+//     const imgNode = document.createElement("img");
+//     imgNode.setAttribute('src', `images/plates/us/${stateCodes[key].code}.png`);
 
-        //             buttonNode.appendChild(imgNode);
-        //             divNode.appendChild(buttonNode);
-        //             document.getElementById("plate-grid").appendChild(divNode);
+//     buttonNode.appendChild(imgNode);
+//     divNode.appendChild(buttonNode);
+//     document.getElementById("plate-grid").appendChild(divNode);
 
-        //             const checkmarkNode = document.createElement("img");
-        //             checkmarkNode.setAttribute('src', "images/icons/checkmark.png");
-        //             checkmarkNode.setAttribute('class', 'checkmark');
-        //             divNode.appendChild(checkmarkNode);
-        //         }
-        //     </script>
-
+//     const checkmarkNode = document.createElement("img");
+//     checkmarkNode.setAttribute('src', "images/icons/checkmark.png");
+//     checkmarkNode.setAttribute('class', 'checkmark');
+//     divNode.appendChild(checkmarkNode);
+// }
