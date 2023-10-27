@@ -1,5 +1,4 @@
 Last working on:
-Style out the bullets and default check boxes
 Creating full plate grid.
 
 TODOS:
